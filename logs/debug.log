@@ -1,0 +1,624 @@
+2023-03-21 11:08:34 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 11:08:34 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 11:08:34 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 11:08:34 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 13:02:47 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 13:02:47 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 13:02:47 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 13:02:47 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 16:46:55 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 16:46:55 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 16:46:55 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-21 16:46:55 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-participants/addnewfromcourse/24
+Referer URL: https://aikido-hdf.fr/edc/edc-participants/add/24
+Client IP: 2a01:e0a:812:3ed0:95b9:e7ee:f326:ecd5
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-22 17:20:57 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-subscriptions/add
+Referer URL: https://aikido-hdf.fr/edc/edc-members/index
+Client IP: 212.114.18.192
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-22 17:20:57 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-subscriptions/add
+Referer URL: https://aikido-hdf.fr/edc/edc-members/index
+Client IP: 212.114.18.192
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 220
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-22 17:20:57 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-subscriptions/add
+Referer URL: https://aikido-hdf.fr/edc/edc-members/index
+Client IP: 212.114.18.192
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+
+2023-03-22 17:20:57 notice: rawurlencode(): Passing null to parameter #1 ($string) of type string is deprecated
+Request URL: /edc-subscriptions/add
+Referer URL: https://aikido-hdf.fr/edc/edc-members/index
+Client IP: 212.114.18.192
+Trace:
+rawurlencode [internal], line ??
+array_map [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 818
+Cake\Routing\Route\Route::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 777
+Cake\Routing\Route\DashedRoute::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/RouteCollection.php, line 320
+Cake\Routing\Router::url() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Router.php, line 497
+Cake\View\Helper\UrlHelper::build() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 90
+Cake\View\Helper\HtmlHelper::link() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 257
+include /home/aikidoh/www/edc/templates/layout/default.php, line 257
+Cake\View\View::_evaluate() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /home/aikidoh/www/edc/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/aikidoh/www/edc/webroot/index.php, line 40
+

@@ -1,0 +1,75 @@
+body, input, select, button{
+    font-family: Ruda;
+}
+
+.edc button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.details_course{
+    font-weight: bold;
+}
+
+#stats thead{
+    background-color: gainsboro;
+    color: dimgray;
+}
+
+#graytable tbody tr{
+    background-color: gainsboro;
+    color: dimgray;
+    border-bottom: 5px solid white;
+}
+
+#graytable tr:hover {
+    background-color: rgba(242, 242, 242, 0.5);
+  }
+
+  /* Flash messages */
+.message {
+    padding: 1rem;
+
+    background: #eff8ff;
+    color: #2779bd;
+
+    border-color: #6cb2eb;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+.message.hidden {
+    display: none;
+}
+.message.success {
+    background: #e3fcec;
+    color: #1f9d55;
+    border-color: #51d88a;
+}
+.message.warning {
+    background: #fffabc;
+    color: #8d7b00;
+    border-color: #d3b800;
+}
+.message.error {
+    background: #fcebea;
+    color: #cc1f1a;
+    border-color: #ef5753;
+}
+
+#title{
+    font-size: 2em;
+    margin: 2% 0;
+}
+
+.tablesync tbody
+{
+counter-reset:case;
+}
+
+.tablesync tbody tr:before
+{
+counter-increment:case;
+content:counter(case);
+}

@@ -1,0 +1,50 @@
+{
+  "background_color": "#ffffff",
+  "description": "Gestionnaires des inscriptions aux stages et à l'école des cadres Ligue HDF",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "aikido-hdf EdC",
+  "orientation": "any",
+  "scope": "https://aikido-hdf.fr/edc/",
+  "short_name": "école des cadres",
+  "start_url": "https://aikido-hdf.fr/edc/edc-members/offline",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://aikido-hdf.fr/edc/img/incon_aiki_192x192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "https://aikido-hdf.fr/edc/img/incon_aiki_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://aikido-hdf.fr/edc/img/incon_aiki_256x256.jpg",
+      "sizes": "256x256",
+      "type": "image/jpg"
+    },
+    {
+      "src": "https://aikido-hdf.fr/aiki_edc32x32.jpg",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "EdC",
+      "url": "",
+      "icons": [
+        {
+          "src": "https://aikido-hdf.fr/edc/img/incon_aiki_96x96.jpg"
+        }
+      ],
+      "description": "icone ligue"
+    }
+  ],
+  "lang": "fr-FR",
+  "prefer_related_applications": false
+}
