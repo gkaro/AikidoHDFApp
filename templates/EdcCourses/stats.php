@@ -113,7 +113,7 @@
         </style>
         <div id="map"></div>
         <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxoP4zo_UbIDv1A5R8caiRziCDAXJy5jE&callback=initMap&v=weekly"
+      src=""
       defer
     ></script>
     </div>
