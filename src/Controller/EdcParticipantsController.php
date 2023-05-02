@@ -132,7 +132,7 @@ class EdcParticipantsController extends AppController
        
         $origin = str_replace(' ', '_', $course->edc_course_place->name);
         $destination = str_replace(' ', '_', $subscription->edc_club->map);
-        $key = "AIzaSyAxoP4zo_UbIDv1A5R8caiRziCDAXJy5jE";
+        $key = "";
         $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=".urlencode($origin)."&destinations=" . urlencode( $destination) . "&key=" . $key;
         $jsonfile = file_get_contents($url);
         $jsondata = json_decode($jsonfile);
@@ -360,7 +360,7 @@ class EdcParticipantsController extends AppController
 
         $origin = str_replace(' ', '_', $course->place);
         $destination = str_replace(' ', '_', $subscription->edc_club->city);
-        $key = "AIzaSyAxoP4zo_UbIDv1A5R8caiRziCDAXJy5jE";
+        $key = "";
         $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=".urlencode($origin)."&destinations=" . urlencode( $destination) . "&key=" . $key;
         $jsonfile = file_get_contents($url);
         $jsondata = json_decode($jsonfile);
@@ -402,7 +402,7 @@ class EdcParticipantsController extends AppController
 
         $origin = str_replace(' ', '_', $club->map);
         $destination = str_replace(' ', '_', $_POST['destination']);
-        $key = "AIzaSyAxoP4zo_UbIDv1A5R8caiRziCDAXJy5jE";
+        $key = "";
         $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=".urlencode($origin)."&destinations=" . urlencode( $destination) . "&key=" . $key;
         $jsonfile = file_get_contents($url);
         $jsondata = json_decode($jsonfile);
