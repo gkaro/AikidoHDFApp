@@ -12,6 +12,9 @@
     <span >
     <a style="margin:2% 0" class="waves-effect waves-light btn" href="https://aikido-hdf.fr/edc/edc-courses/add"><i class="material-icons">add</i></a>
     </span>
+    <span >
+    <a style="margin:2% 0" class="waves-effect waves-light btn" href="https://aikido-hdf.fr/edc/edc-courses/qrcode"><i class="material-icons">QR Code</i></a>
+    </span>
     <span style="margin-left:5%">
 
     <a style="margin:2% 0" class="waves-effect waves-light btn sync" href="https://aikido-hdf.fr/edc/edc-courses/sync"><i class="material-icons">sync</i></a>
