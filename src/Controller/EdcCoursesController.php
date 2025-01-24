@@ -9,6 +9,7 @@ use Cake\I18n\FrozenTime;
 use Cake\I18n\FrozenDate;
 use Cake\I18n\Time;
 use Cake\I18n\Date;
+use Cake\Mailer\Mailer;
 
 Time::setDefaultLocale('fr_FR'); 
 FrozenTime::setDefaultLocale('fr_FR'); 
@@ -32,7 +33,13 @@ class EdcCoursesController extends AppController
         $seasons = $seasonTable->find()->select(['id','name'])->all();
 
         $this->set('seasons', $seasons);
+        $this->loadComponent('Paginator');
     }
+
+    public $paginate = [
+        'limit' => 10,
+       
+    ];
 
     public function index()
     {
@@ -42,8 +49,9 @@ class EdcCoursesController extends AppController
         ->contain(['EdcCourseTypes'])
         ->contain(['EdcCoursePlaces'])
         ->contain(['EdcCourseTeachers']);
+
         $this->viewBuilder()->setOption('serialize', ['courses']);
-        $this->set(compact('courses'));
+        $this->set('courses', $this->paginate($courses));
     }
 
     public function add()
@@ -137,6 +145,7 @@ class EdcCoursesController extends AppController
 
         $count = $coursesParticipants->count();
         $sum = (new Collection($coursesParticipants))->sumOf('payment');
+        
         $this->set('course', $course); 
         $this->set('count', $count); 
         $this->set('sum', $sum);
@@ -153,8 +162,7 @@ class EdcCoursesController extends AppController
         ->contain(['EdcSubscriptions', 'EdcSubscriptions.EdcMembers','EdcSubscriptions.EdcClubs','EdcSubscriptions.EdcGrades'])
         ->where(['id_course'=>$id])
         ->order(['EdcMembers.name'=>'ASC'])
-        ->all()
-        ;
+        ->all();
 
         $this->set('participants', $participants);
         $this->set('course', $course);
@@ -259,6 +267,7 @@ class EdcCoursesController extends AppController
     {
         $course = $this->EdcCourses
         ->findById($id)
+        ->contain(['EdcCourseTypes'])
         ->firstOrFail();
 
         $participantsTable = $this->getTableLocator()->get('EdcParticipants');  
@@ -330,7 +339,7 @@ class EdcCoursesController extends AppController
         }
         $datatabl .= '</table>';
         header('Content-type: application/force-download; charset=UTF-8;');
-        header('Content-disposition:attachment; filename= export_participants_'. $course->name .'.xls');
+        header('Content-disposition:attachment; filename= export_participants_'. $course->edc_course_type->name .'.xls');
         header('Pragma: ');
         header('cache-control: ');
         echo $datatabl;
@@ -342,5 +351,139 @@ class EdcCoursesController extends AppController
 
     }
 
-    
+    public function evaluation($id)
+    {
+        $course = $this->EdcCourses
+        ->findById($id)
+        ->contain(['EdcCourseTypes'])
+        ->firstOrFail();
+
+        $evalTable = $this->getTableLocator()->get('EdcEval');  
+
+        $evaluations = $evalTable->find()->where(['id_course'=>$course->id])->all();
+
+        $this->set('course', $course);
+        $this->set('evaluations', $evaluations);
+    }
+
+   
+
+    public function form($id)
+    {
+       $this->viewBuilder()->setLayout('form');
+
+        $course = $this->EdcCourses
+        ->findById($id)
+        ->contain(['EdcCourseTypes'])
+        ->firstOrFail();
+
+        $participantsTable = $this->getTableLocator()->get('EdcParticipants');  
+        $participants = $participantsTable
+        ->find()
+        ->contain(['EdcSubscriptions', 'EdcSubscriptions.EdcMembers','EdcSubscriptions.EdcGrades'])
+        ->where(['id_course' => $course->id])
+        ->select(['id'=>'EdcParticipants.id', 'name'=>'EdcMembers.name'])
+        ->all()
+        ->combine('id', 'name');
+
+        $evalTable = $this->getTableLocator()->get('EdcEval');  
+        $form = $evalTable->newEmptyEntity();
+
+        if ($this->request->is('post')) {
+            $form = $evalTable->patchEntity($form, $this->request->getData(), [
+                'associated' => ['EdcCourseTypes','EdcCourses.EdcCourseTypes']
+            ]);
+            if ($evalTable->save($form)) {
+                $name = $form->name;
+                $email = $form->email;
+                $id = $course->edc_course_type->name;
+                $question1 = $form->question1;
+                $question2 = $form->question2;
+                $question3 = $form->question3;
+                $comments = $form->comments;
+                $mailer = new Mailer('default');
+                
+                $mailer->setFrom(['formation@aikido-hdf.fr'])
+                ->setViewVars([ //email view variables
+                    'name' => $name,
+                    'id' => $id,
+                'question1' => $question1,
+                'question2' => $question2,
+                'question3' => $question3,
+                'comments' => $comments,
+                    ])
+                ->setTo($email)
+                ->setSubject('Evaluation du stage')
+                ->setEmailFormat('html')
+                ->viewBuilder()
+                    ->setTemplate('eval');
+                $mailer->send();
+                $this->Flash->success(__('Evaluation envoyée'));
+                return $this->redirect(['action' => 'thanks']);
+            }
+            $this->Flash->error(__('Echec de l\'envoi'));
+        }
+
+        $this->set('course', $course);
+        $this->set('form', $form);
+        $this->set('participants', $participants);
+    }
+
+    public function thanks()
+    {
+        $this->viewBuilder()->setLayout('form');
+    }
+
+    public function exporteval($id)
+    {
+        $course = $this->EdcCourses
+        ->findById($id)
+        ->firstOrFail();
+
+        $evalTable = $this->getTableLocator()->get('EdcEval');  
+
+        $evaluations = $evalTable->find()->where(['id_course'=>$course->id])->all()->toArray();
+
+        $datatabl='';
+        $datatabl = '<table cellspacing="2" cellpadding="5">';
+        $datatabl .= '<thead>
+			<th>Qualité de l\'organisation (inscription, accueil, information, conditions matérielles...)</th>
+			<th>Qualité de l\'animation, de l\'intervention des animateurs</th>
+            <th>Qualité et pertinence du contenu proposé, des ressources mises à disposition</th>
+            <th>Commentaires</th>
+            </thead>';
+        foreach($evaluations as $i){
+            $question1 = $i['question1'];
+            $question2 = $i['question2'];
+            $question3 = $i['question3'];
+            $comments = $i['comments'];
+			
+			$color_border = '#d5d5d5';
+			$background_color = '#eeeeee';
+
+            $datatabl .= '<tr>
+				    <td style="vertical-align:middle;border:1px solid ' . $color_border . '">' . $question1 . '</td>';
+			$datatabl .= '<td style="vertical-align:middle;border:1px solid ' . $color_border . '" >' . $question2 . '</td>';
+            $datatabl .= '<td style="vertical-align:middle;border:1px solid ' . $color_border . '" >' . $question3 . '</td>';
+            $datatabl .= '<td style="vertical-align:middle;border:1px solid ' . $color_border . '" >' . $comments . '</td>';
+		
+			
+        }
+        $datatabl .= '</table>';
+        header('Content-type: application/force-download; charset=UTF-8;');
+        header('Content-disposition:attachment; filename= export_evaluation_'. $course->id .'.xls');
+        header('Pragma: ');
+        header('cache-control: ');
+        echo $datatabl;
+        die;
+	}
+
+    public function helloasso($id){
+        $course = $this->EdcCourses
+        ->find()
+        ->where(['helloasso' => $id])
+        ->firstOrFail();
+        
+        $this->set('course', $course);
+    }
 }
