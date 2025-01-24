@@ -189,4 +189,85 @@ class ConfigController extends AppController{
             return $this->redirect(['controller'=>'Config','action' => 'teachers']);
         }
     }
+
+    public function clubs()
+    {  
+        $clubs = $this->getTableLocator()->get('EdcClubs')
+        ->find('all');
+        $this->set(compact('clubs'));   
+    }
+
+    public function addclub()
+    {  
+        $clubs = $this->getTableLocator()->get('EdcClubs');
+          
+        $club = $clubs->newEmptyEntity();
+        if ($this->request->is('post')) {
+            $club = $clubs->patchEntity($club, $this->request->getData()); 
+            if ($clubs->save($club)) {   
+                $this->Flash->success(__('Club enregistré.'));
+                return $this->redirect(['action' => 'clubs']);
+            }
+            $this->Flash->error(__('Impossible d\'ajouter ce club.'));
+        }
+
+        $optionsCid = ['Nord-Pas-de-Calais' => 'Nord-Pas-de-Calais','Picardie' => 'Picardie','Hors Ligue' => 'Hors Ligue'];
+        $this->set('optionsCid', $optionsCid);
+        $this->set(compact('club'));
+    }
+
+    public function editclub($id)
+    {  
+        $clubs = $this->getTableLocator()->get('EdcClubs');
+          
+        $club = $clubs
+            ->findById($id)
+            ->firstOrFail();
+
+        if ($this->request->is(['post','put'])) {
+            $clubs->patchEntity($club, $this->request->getData());
+            if ($clubs->save($club)) {
+                $this->Flash->success(__('Le club a été mise à jour.'));
+                return $this->redirect(['controller'=>'Config','action' => 'clubs']);
+            }
+            $this->Flash->error(__('Mise à jour impossible'));
+        }
+        $this->set(compact('club'));
+    }
+
+    public function deleteclub($id)
+    {  
+        $clubs = $this->getTableLocator()->get('EdcClubs');
+          
+        $this->request->allowMethod(['post', 'delete']);
+
+        $club = $clubs->findById($id)->firstOrFail();
+        if ($clubs->delete($club)) {
+            $this->Flash->success(__('Effacé'));
+            return $this->redirect(['controller'=>'Config','action' => 'clubs']);
+        }
+    }
+
+    public function helloassoconfig()
+    {
+        $configs = $this->getTableLocator()->get('EdcHelloasso');
+
+        $config = $configs
+            ->find()
+            ->firstOrFail();
+
+        if ($this->request->is(['post','put'])) {
+            $configs->patchEntity($config, $this->request->getData());
+            if ($configs->save($config)) {
+                $this->Flash->success(__('Configuration mise à jour.'));
+                return $this->redirect(['controller'=>'Config','action' => 'helloassoconfig']);
+            }
+            $this->Flash->error(__('Mise à jour impossible'));
+        }
+          
+        
+
+        $this->set(compact('config'));
+    }
+
 }
